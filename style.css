@@ -1,0 +1,130 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #fff5f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+.main-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 48px;
+  color: #d6336c;
+  text-align: center;
+  margin-top: 40px;
+}
+
+h1, h2 {
+  text-align: center;
+  font-weight: 600;
+  color: #d6336c;
+  margin-top: 40px;
+}
+
+
+section {
+  padding: 40px 20px;
+  background-color: #fff0f4;
+  border-radius: 40px 40px 0 0;
+  margin-top: 40px;
+}
+
+p {
+  text-align: center;
+  max-width: 800px;
+  margin: 10px auto 30px auto;
+  font-size: 16px;
+}
+
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+nav a {
+  text-decoration: underline;
+  color: #C71585;
+  margin: 0 15px;
+  font-weight: none;
+}
+
+ol {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  background-color: #FFB6C1; }
+
+.image-box img {
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.image-box img:hover {
+  transform: scale(1.05);
+}
+
+.image-label {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.8em;
+  color: #8e244d;
+  margin-top: 10px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #8B0000;
+  border-radius: 10px;
+  width: 300px;
+}
+
+table {
+  width: 90%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  background-color: #ffe0ec;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  border: 1px solid #f2b6c1;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f86e9d;
+  color: white;
+}
+
+
+a.button {
+  display: inline-block;
+  background-color: #f86e9d;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+a.button:hover {
+  background-color: #d6336c;
+}
